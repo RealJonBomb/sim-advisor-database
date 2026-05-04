@@ -1,2 +1,33 @@
 # sim-advisor-database
 My final project for my database design class at Ursinus College. This uses some real but mostly hypothetical data from my real Sim Advisor business, and features several functions to display the data in different ways.
+
+This project is a PostgreSQL database designed for a database design course.
+
+I used pgAdmin 4 to edit, run, and save the queries I used to create this database.
+
+## Overview
+Sim Advisor is a business that provides services for building and configuring racing simulators.
+
+## Features
+- Customer management
+- Orders and services tracking
+- Product catalog
+- Appointment scheduling
+
+## Database Structure
+- customers
+- addresses
+- orders
+- order_items
+- products
+- services
+- order_services
+- appointments
+
+## How to Run
+
+1. Create a PostgreSQL database
+2. Run:
+
+```bash
+psql -U postgres -d your_database -f simadvisordb.sql
